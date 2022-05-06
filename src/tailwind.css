@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply p-5 rounded-12 transition-colors ease-in-out cursor-pointer;
+    }
+
+    .up {
+        @apply bg-trans flex p-10 items-center sticky top-0 rounded-bl-20 rounded-br-20 backdrop-blur-xl;
+    }
+
+    .deg1 {
+        @apply bg-gradient-to-t from-[#ffc83e] to-[#c037ff];
+    }
+}
